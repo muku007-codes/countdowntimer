@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  color: rgb(255, 244, 163);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  /* background-image: url(nathan-anderson-L95xDkSSuWw-unsplash.jpg); */
+  background-size: cover;
+  background-color: rgb(40, 42, 53);
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -10rem;
+}
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 1.3rem;
+}
+.c1 {
+  background-color: rgb(40, 42, 53);
+  border-radius: 2%;
+}
