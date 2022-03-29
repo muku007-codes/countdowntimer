@@ -6,9 +6,9 @@
 
 body {
   /* background-image: url(nathan-anderson-L95xDkSSuWw-unsplash.jpg); */
-   background-image: url(https://source.unsplash.com/random/1366 x 784);
+   /*background-image: url(https://source.unsplash.com/random/1366 x 784);*/
   background-size: cover;
-  /*background-color: rgb(40, 42, 53);*/
+  background-color: rgb(40, 42, 53);
   background-position: center center;
   background-repeat: no-repeat;
   display: flex;
