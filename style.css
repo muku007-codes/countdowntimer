@@ -1,16 +1,11 @@
 * {
   box-sizing: border-box;
-  color: rgb(255, 244, 163);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
-  /* background-image: url(nathan-anderson-L95xDkSSuWw-unsplash.jpg); */
-   /*background-image: url(https://source.unsplash.com/random/1366 x 784);*/
-  background-size: cover;
   background-color: rgb(40, 42, 53);
-  background-position: center center;
-  background-repeat: no-repeat;
+  color: rgb(255, 244, 163);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +34,12 @@ h1 {
 .countdown-el span {
   font-size: 1.3rem;
 }
-.c1 {
-  background-color: rgb(40, 42, 53);
-  border-radius: 2%;
+
+@media screen and (max-width:800px){
+  .big-text{
+    font-size: 1rem;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }
